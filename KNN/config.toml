@@ -1,0 +1,10 @@
+[parameters]
+k = 5 
+embedding_length = 4
+
+[csv_path]
+csv_path = "data/knn_time_series_sample.csv"
+
+[predictor_value]
+predictor = ["lag_1_sales", " rolling_7_sales_avg", "promo_index"]
+
